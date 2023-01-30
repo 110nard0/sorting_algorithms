@@ -24,12 +24,15 @@ void bubble_sort(int *array, size_t size)
 	if (!array || size == 0 || size == 1)
 		return;
 
+	/* Loop over every pair of elements */
 	for (i = 0; i < size - 1; i++)
 	{
+		/* Loop over every element except sorted one */
 		for (j = 0; j < size - i - 1; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
+				/* Swap if bigger slot holds larger value */
 				swap(&array[j], &array[j + 1]);
 				print_array(array, size);
 			}
