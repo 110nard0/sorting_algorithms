@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * swap - swaps two different integer values
+ * swap - swaps two different integer values using Bubble sort algorithm
  * @x: first element
  * @y: second element
  */

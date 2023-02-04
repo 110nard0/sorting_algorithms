@@ -1,6 +1,7 @@
 #include "sort.h"
 /**
- * swap - swaps two different array elements
+ * swap - swaps two different array elements in ascending order
+ * using Selection sort algorithm
  * @x: first element
  * @y: second element
  */
