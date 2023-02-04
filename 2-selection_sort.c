@@ -24,7 +24,7 @@ void selection_sort(int *array, size_t size)
 
 	if (!array || size == 0 || size == 1)
 		return;
-	
+
 	/* Loop over array and shift boundary of sorted subarray */
 	for (i = 0; i < size - 1; i++)
 	{
